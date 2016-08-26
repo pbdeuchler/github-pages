@@ -1,0 +1,32 @@
+baseurl = "https://pbdeuchler.github.io/"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Philip Deuchler"
+title = "Philip Deuchler"
+pygmentsuseclasses = true
+# disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+posts = "posts/:slug/"
+
+[params]
+Author = "Philip Deuchler"
+CacheBuster = true
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+Description = "Don't panic"
+Email = "pbdeuchler+ghpages@gmail.com"
+FaviconFile = "img/leaf.ico"
+GATracker = "XYZ"
+GitHub = "//github.com/pbdeuchler"
+Initials = "ad" # Displayed on single post page; DEPRECATED in v0.3.0.
+Lang = "en"
+# LinkedIn = "//linkedin.com/in/you"
+Twitter = "//twitter.com/false1001"
+ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
